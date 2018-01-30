@@ -3,7 +3,7 @@ let remxml = function(str){
        return false;
 	else
 	   str = str.toString();*/
-  return str.replace(/<[^>]*>/g, '');
+  return str.replace(/<[^>]+>/g, '');
 	
 }
 
